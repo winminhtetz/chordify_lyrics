@@ -1,6 +1,5 @@
 ### ✅ `CHORDIFY LYRICS`
 
-````md
 # 🎶 chordify_lyrics
 
 **A Flutter widget package to parse, display, and transpose chorded lyrics** — perfect for music, karaoke, chord sheet, and worship apps.
@@ -25,6 +24,7 @@ Add to your `pubspec.yaml`:
 dependencies:
   chordify_lyrics: ^1.0.0
 ```
+
 ````
 
 Then run:
@@ -128,3 +128,4 @@ Feel free to open issues or submit PRs to add features, fix bugs, or improve doc
 ## 📄 License
 
 MIT © Win Min Htet
+````
