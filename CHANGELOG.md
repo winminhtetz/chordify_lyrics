@@ -1,3 +1,4 @@
-## 1.0.0
+## 1.0.1
 
-- TODO: Describe initial release.
+- Fixed README.md typo
+- Added better chord spacing
