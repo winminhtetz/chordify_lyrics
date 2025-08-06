@@ -1,7 +1,8 @@
 name: chordify_lyrics
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Flutter package to beautifully render and transpose chorded lyrics with ease — perfect for music apps, karaoke, or chord sheets."
+version: 1.0.0
+homepage: https://github.com/winminhtetz/chordify_lyrics
+repository: https://github.com/winminhtetz/chordify_lyrics
 
 environment:
   sdk: ^3.6.0
@@ -16,10 +17,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
 
   # To add assets to your package, add an assets section, like this:
