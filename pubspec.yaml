@@ -3,6 +3,7 @@ description: "A Flutter package to beautifully render and transpose chorded lyri
 version: 1.0.0
 homepage: https://github.com/winminhtetz/chordify_lyrics
 repository: https://github.com/winminhtetz/chordify_lyrics
+`documentation: https://github.com/yourusername/chordify_lyrics#readme
 
 environment:
   sdk: ^3.6.0
