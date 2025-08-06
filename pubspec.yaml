@@ -1,6 +1,6 @@
 name: chordify_lyrics
 description: "A Flutter package to beautifully render and transpose chorded lyrics with ease — perfect for music apps, karaoke, or chord sheets."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/winminhtetz/chordify_lyrics
 repository: https://github.com/winminhtetz/chordify_lyrics
 documentation: https://github.com/winminhtetz/chordify_lyrics#readme

@@ -1,4 +1,4 @@
-## 1.0.1
+## 1.0.2
 
-- Fixed README.md typo
+- Fixed README.md typo error 
 - Added better chord spacing
