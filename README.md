@@ -104,7 +104,7 @@ ChordifyLyricsWidget(
 
 ## 📸 Screenshots
 
-> _Coming soon_ — feel free to submit yours via PR!
+![ChordifyLyrics Preview](screenshots/preview.png)
 
 ---
 
