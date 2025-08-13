@@ -8,7 +8,7 @@
 
 - 🎸 Parse lyrics with embedded chords like `[C]I [G]love [Am]you`
 - 📐 Automatically aligns chords above lyrics
-- 🔁 Transpose chords up/down with `ChordTransposeController`
+- 🔁 Transpose chords up/down with `transpose`
 - 🔘 Tappable chords with custom actions
 - 🎨 Fully customizable styling and layout
 
@@ -54,17 +54,16 @@ ChordifyLyricsWidget(
 
 ## 🎼 Example Input (rawChordText)
 
-```txt
-(Verse)
-ဟို[Ab]တုန်းကမေးတဲ့
-[Fm]လမ်းဘေးလက္ခဏာ[Db]အဟောထဲ[Eb]မှာ
-[Ab]ပြည်ကြီးကရည်းစား
-အ[Fm]ကျိုးပေးကောင်းမယ် [Db]ပြောခဲ့[Eb]တာ
-စိတ်[Ab]ကူးနဲ့မြူးခဲ့[Fm]ရူးခဲ့ရတယ် [Db]နှစ်လ[Eb]ကြာ
-သူ[Ab]လေးနဲ့ကျမှ [Fm]တည့်တည့်ကြီး ကိုယ်[Db]တိုးခဲ့[Eb]တာ
-ဟတ်ဖ်[Ab]ချိုင်းနိစ် ဖိုက်ဖိ
-[Fm]အလိုက်သိတဲ့ ကိုယ့်[Db]အသည်းလေး[Eb]က
-နှာ[Ab]ခေါင်းရင်းလေးတော့
+```dart
+String rawChordText = """
+(Chorus)
+You are my s[G]unshine, my only sunshine
+You make me h[C]appy
+When skies are g[G]rey
+You’ll never k[C]now dear
+How much I [G]love you
+Please don’t take my suns[D]hine [G]away
+""";
 ```
 
 > The widget will automatically align `[Ab]`, `[Fm]`, `[Db]`, etc. above each lyric line and support real-time transposition.
