@@ -20,7 +20,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  chordify_lyrics: ^1.0.0
+  chordify_lyrics: ^1.0.2
 ```
 
 Then run:
