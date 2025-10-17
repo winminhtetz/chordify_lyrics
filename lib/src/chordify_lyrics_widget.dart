@@ -1,5 +1,3 @@
-import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
-
 import 'package:chordify_lyrics/src/chord_lyric_pair.dart';
 import 'package:chordify_lyrics/src/chord_transposer.dart';
 import 'package:chordify_lyrics/src/lyric_chord_parser.dart';
