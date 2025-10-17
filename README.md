@@ -20,7 +20,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  chordify_lyrics: ^1.0.2
+  chordify_lyrics: ^1.0.3
 ```
 
 Then run:
@@ -42,9 +42,18 @@ ChordifyLyricsWidget(
   transpose: transpose,
   rawChordText: rawChordLyric,
   chordLyricsSpacing: 0.1,
+  keySignature: 'G',
+  bpm: '65/130',
+  capo: '3rd fret',
+  songTitle: 'You Are My Sunshine',
+  artistName: 'Christina Perri',
+  thumbnailUrl: 'https://i.ytimg.com/vi/JBhp-TEh4e0/maxresdefault.jpg',
+  showSongInfo: true,
   onChordTap: (chord) {
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(chord)),
+      SnackBar(
+        content: Text(chord),
+      ),
     );
   },
 )
@@ -85,15 +94,25 @@ ChordifyLyricsWidget(
 
 ## 🎨 Customization Options
 
-| Prop                 | Description                                          |
-| -------------------- | ---------------------------------------------------- |
-| `transpose`          | Optional to dynamically transpose chords             |
-| `onChordTap`         | Callback when a chord is tapped                      |
-| `chordStyle`         | `TextStyle` for chords                               |
-| `lyricStyle`         | `TextStyle` for lyrics                               |
-| `chordBuilder`       | Custom widget builder for each chord                 |
-| `chordLyricsSpacing` | Space between chord and lyric (default: `8.0`)       |
-| `scrollController`   | Optional `ScrollController` for scroll customization |
+| Prop                   | Description                                                              |
+| ---------------------- | ------------------------------------------------------------------------ |
+| `transpose`            | Number of semitones to transpose chords (default: `0`)                   |
+| `onChordTap`           | Callback triggered when a chord is tapped                                |
+| `chordStyle`           | `TextStyle` for chords                                                   |
+| `lyricStyle`           | `TextStyle` for lyrics                                                   |
+| `chordBuilder`         | Custom widget builder for each chord                                     |
+| `sectionHeaderBuilder` | Custom widget builder for section headers (e.g., `(Chorus)`, `(Verse)`)  |
+| `chordLyricsSpacing`   | Space between chord and lyric (default: `8.0`)                           |
+| `lineSpacing`          | Vertical space between lines (default: `4.0`)                            |
+| `scrollController`     | Optional `ScrollController` for scroll customization                     |
+| `showSongInfo`         | Whether to show song information like title and artist (default: `true`) |
+| `songTitle`            | Optional song title to display above the lyrics                          |
+| `artistName`           | Optional artist name to display below the title                          |
+| `thumbnailUrl`         | Optional image URL to display as song thumbnail                          |
+| `thumbnail`            | Custom thumbnail widget (overrides `thumbnailUrl` if provided)           |
+| `keySignature`         | Optional key signature of the song (e.g., `C Major`, `A Minor`)          |
+| `bpm`                  | Optional BPM (beats per minute) of the song                              |
+| `capo`                 | Optional capo position (e.g., `Capo 2`)                                  |
 
 ---
 
